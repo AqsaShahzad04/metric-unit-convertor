@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid; 
+    background-color: black;   
+}
+.main-container{
+    width:28.65vw;
+    height:67.6vh;
+    background-color: #F4F4F4;
+    box-shadow: 0px 0px 5px #8c8b8b;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size:20px;
+    color:white;
+    background-color: #6943FF;
+    height:26.39vh;
+    width:100%;
+    gap:0.625rem;
+    /* padding:10px 20px; */
+
+}
+.header h3{
+    font-size:1.375rem;
+    margin-bottom:0.625rem;
+   width: 26.33vw;
+    min-width: 200px;
+    text-align: center;
+}
+.header input{
+    width:6.09vw;
+    height:7.69vh;
+    background-color: inherit;
+    border:1px solid #B295FF;
+    font-size:2.1875rem;
+    color:white;
+    text-align: center;
+    border-radius:0.3125rem;
+    -webkit-border-radius:0.3125rem;
+    -moz-border-radius:0.3125rem;
+    -ms-border-radius:0.3125rem;
+    -o-border-radius:0.3125rem;
+    font-weight: bold;
+}
+.header button{
+background-color: white;
+color: black;
+padding: 0.625rem 0.9375rem; /* 10px = 0.625rem, 15px = 0.9375rem */
+border-radius: 0.3125rem;     /* 5px = 0.3125rem */
+border: none;
+-webkit-border-radius: 0.3125rem;
+-moz-border-radius: 0.3125rem;
+-ms-border-radius: 0.3125rem;
+-o-border-radius: 0.3125rem;
+cursor:pointer;
+
+}
+.header button:hover{
+    opacity: 0.6;
+}
+.result-boxes{
+width: 26.04vw;           /* 500px based on 1920px screen width */
+height: 10vh;             /* 108px based on 1080px screen height */
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0.9375rem;  
+box-sizing: border-box; 
+padding: 0.9375rem;                /* 10px = 0.625rem */
+
+}
+.result-boxes h3 {
+    font-weight: 500;
+    font-size: 1rem;      /* 18px = 1.125rem */
+    color: #5A537B;
+    margin-bottom: 0.625rem;/* 15px = 0.9375rem */
+}
+
+.result-boxes p {
+    font-size: 0.625rem;     /* 15px = 0.9375rem */
+    text-align: center;
+}
